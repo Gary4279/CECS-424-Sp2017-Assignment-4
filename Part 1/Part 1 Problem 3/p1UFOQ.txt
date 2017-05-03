@@ -1,0 +1,12 @@
+?- consult('p1UFO').
+true.
+
+?- solve.
+tue: gort saw a water_tower.
+wed: nikto saw a frisbee.
+thu: klatu saw a clothesline.
+fri: barrada saw a balloon.
+true .
+
+?- halt.
+Garys-MacBook-Pro:desktop Gary4279$ 

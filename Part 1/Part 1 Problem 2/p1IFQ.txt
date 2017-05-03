@@ -1,0 +1,12 @@
+?- consult('p1IF').
+true.
+
+?- solve.
+joanne imagined moose going to the circus.
+lou imagined grizzly_bear going to the train.
+ralph imagined seal going to the rock_band.
+winnie imagined zebra going to the spaceship.
+true .
+
+?- halt.
+Garys-MacBook-Pro:desktop Gary4279$ 

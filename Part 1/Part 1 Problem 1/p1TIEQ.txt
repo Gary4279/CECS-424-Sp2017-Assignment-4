@@ -1,0 +1,14 @@
+%Queries
+
+?- consult('p1TIE').
+true.
+
+?- solve.
+Mr. crow got the cupids tie from his daughter.
+Mr. evans got the leprechauns tie from his uncle.
+Mr. hurley got the reindeer tie from his sister.
+Mr. speigler got the happy_faces tie from his father_in_law.
+true .
+
+?- halt.
+Garys-MacBook-Pro:desktop Gary4279$
