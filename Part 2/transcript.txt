@@ -1,0 +1,183 @@
+Full Transcript to beat the game:
+
+?- consult('p2.pl').
+true.
+
+?- start.
+
+Enter commands using standard Prolog syntax.
+Available commands are:
+start.             -- to start the game.
+n.  s.  e.  w.     -- to go in that direction.
+i.                 -- to display items in possesion.
+take(Object).      -- to pick up an object.
+drop(Object).      -- to put down an object.
+look.              -- to look around you again.
+loadGun.           -- load your gun to be able to shoot.
+shoot.             -- to shoot an enemy.
+instructions.      -- to see this message again.
+halt.              -- to end the game and quit.
+
+You just aquired a run down old farm.
+It clearly needs some work done before it can be operational.
+You need to find a way to make money.
+Luckily your nieghbor will buy a golden apple for $10,000.
+Go find that apple!!!!.
+You are at a field.
+To the west, there is a buyer.
+Your car is parked south from here.
+The farmhouse is up north.
+
+There is a bullet1 here.
+
+true.
+
+?- take(bullet1).
+OK.
+true.
+
+?- s.
+You are in your car.
+The field is to the north.
+
+There is a bullet2 here.
+
+true.
+
+?- take(bullet2).
+OK.
+true.
+
+?- n.
+You are at a field.
+To the west, there is a buyer.
+Your car is parked south from here.
+The farmhouse is up north.
+
+
+true.
+
+?- n.
+You are in the farmhouse.
+The farm shed is to the north.
+Your bedroom is to the east.
+The field is south.
+
+There is a shotgun here.
+
+true.
+
+?- take(shotgun).
+OK.
+true.
+
+?- e.
+You are in your bedroom.
+The farmhouse is to the west.
+
+There is a deed here.
+
+true.
+
+?- take(deed).
+OK.
+true.
+
+?- w.
+You are in the farmhouse.
+The farm shed is to the north.
+Your bedroom is to the east.
+The field is south.
+
+
+true.
+
+?- n.
+You are in the shed.
+The woods are to the north.
+The farmhouse is the south.
+
+There is a bullet3 here.
+
+true.
+
+?- take(bullet3).
+OK.
+true.
+
+?- n.
+You are in the woods.
+There is a dangerous tree monster here.
+Be careful!
+The farm shed is south from here.
+
+There is a goldenapple here.
+
+true
+Unknown action: i (h for help)
+Action? .
+
+?- i.
+bullet1
+true ;
+bullet2
+true ;
+shotgun
+true ;
+deed
+true ;
+bullet3
+true.
+
+?- loadGun.
+Loaded your gun with bullets, you have 1 shot so be carful!
+true.
+
+?- shoot.
+You pulled the trigger and completely destroyed the tree!
+Along with all the shattered wood pieces a golden apple
+came out of the tree, it is just what you needed.
+true.
+
+?- take(goldenapple).
+OK.
+true.
+
+?- s.
+You are in the shed.
+The woods are to the north.
+The farmhouse is the south.
+
+
+true.
+
+?- s.
+You are in the farmhouse.
+The farm shed is to the north.
+Your bedroom is to the east.
+The field is south.
+
+
+true.
+
+?- s.
+You are at a field.
+To the west, there is a buyer.
+Your car is parked south from here.
+The farmhouse is up north.
+
+
+true.
+
+?- w.
+Buyer gave you $10,000 for your golden apple.
+You can now fix up your farm and have a good life.
+You win!
+
+The game is over. Please enter the "halt." command.
+
+
+true.
+
+?- halt.
+Garys-MacBook-Pro:desktop Gary4279$ 
